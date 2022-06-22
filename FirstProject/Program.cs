@@ -27,6 +27,8 @@ namespace FirstProject
             employeeLinq.practiceLinq();
             int[] numbers = new int[] { 1, 2, 3, 456, 78, 9, 5 };
             employeeLinq.oddNumber(numbers);
+            UniversityManager universityManager = new UniversityManager();
+            universityManager.MaleStudent();
 
         }
         
