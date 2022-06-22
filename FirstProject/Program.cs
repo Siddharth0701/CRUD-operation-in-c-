@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
+using FirstProject.Linq;
+using System.Linq;
+
 
 
 namespace FirstProject
@@ -19,18 +23,13 @@ namespace FirstProject
 
             DeleteQuery dq = new DeleteQuery();
             //dq.DeleteTableEntry();
-
-
-
-
-            
-            
-
-
-
-
+            EmployeeLinq employeeLinq = new EmployeeLinq();
+            employeeLinq.practiceLinq();
+            int[] numbers = new int[] { 1, 2, 3, 456, 78, 9, 5 };
+            employeeLinq.oddNumber(numbers);
 
         }
+        
    
     }
 }
